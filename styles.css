@@ -13,9 +13,34 @@
 }
 
 .card {
+  position: relative;
   width: 18vw;
   height: 18vw;
   float: left;
-  border: 2px solid #fff;
-  background-color: #ccc;
+  border: 1vw solid #fff;
+}
+
+.card div {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.cardBack {
+  background-color: #aaa;
+}
+
+.cardFront {
+  display: none;
+  background-color: #333;
+}
+
+.pic1 .cardFront {
+  background-image: url(images/seattle.jpg);
+  background-size: cover;
+}
+
+.pic2 .cardFront {
+  background-image: url(images/arches.jpg);
+  background-size: cover;
 }
