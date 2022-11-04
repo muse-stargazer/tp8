@@ -53,22 +53,29 @@ function cardCompare() {
 
   }
 
-
 }
 
 function removeCards(cardA, cardB) {
-  cardA.classList.remove("clicked");
-  cardB.classList.remove("clicked");
+  
+  pause = setTimeout(function() {
+    cardA.classList.remove("clicked");
+    cardB.classList.remove("clicked");
 
-  cardA.classList.add("removed");
-  cardB.classList.add("removed");
-  cardsClicked = 0;
+    cardA.classList.add("removed");
+    cardB.classList.add("removed");
+    
+    cardsClicked = 0;
+  }, 1000);  
 }
 
 function unflipCards(cardA, cardB) {
-  cardA.classList.remove("clicked");
-  cardB.classList.remove("clicked");
-  cardsClicked = 0;
+  
+  pause = setTimeout(function() {
+    cardA.classList.remove("clicked");
+    cardB.classList.remove("clicked");
+    
+    cardsClicked = 0;
+  }, 1000);  
 }
 
 
@@ -84,6 +91,4 @@ window.onload = function() {
       cardClicked(this)
     }
   }
-
-
 }
