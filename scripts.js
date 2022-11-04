@@ -96,7 +96,7 @@ function checkWinning() {
      }
   }
   
-  document.getElementById("mainTable").innerHTML = '<h1 id="win">You won!</h1>';
+  document.getElementById("mainTable").innerHTML = '<div id="win"><h1>You won!</h1></div>';
 }
 
 function shuffleCards() {

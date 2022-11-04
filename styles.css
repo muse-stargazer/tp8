@@ -81,17 +81,25 @@
 }
 
 #win {
-  width: 80%;
-  height: 80%;
+  height: 40vw;
+  width: 70%;
+  max-width: 800px;
+  max-height: 553px;
   position: absolute;
   background-image: url(images/blue-flowers.jpg);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   font-family: helvetica, sans-serif;
-  font-size: 5vh;
+  font-size: 2rem;
   text-align: center;
   color: white;
   text-decoration: underline;
-}
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 8vw;
+  align-items: center;
+  }
 
 
 
