@@ -6,8 +6,16 @@
 
 #mainTable {
   width: 80vw;
-  height: 40vh;
+  height: 60vh;
   position: relative;
   margin: 10vh auto;
   border: 1px solid #ccc;
+}
+
+.card {
+  width: 18vw;
+  height: 18vw;
+  float: left;
+  border: 2px solid #fff;
+  background-color: #ccc;
 }
