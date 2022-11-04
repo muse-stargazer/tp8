@@ -35,6 +35,14 @@
   background-color: #333;
 }
 
+.clicked .cardFront {
+  display: block;
+}
+
+.clicked .cardBack {
+  display: none;
+}
+
 .pic1 .cardFront {
   background-image: url(images/seattle.jpg);
   background-size: cover;
@@ -44,3 +52,11 @@
   background-image: url(images/arches.jpg);
   background-size: cover;
 }
+
+
+
+
+
+
+
+
