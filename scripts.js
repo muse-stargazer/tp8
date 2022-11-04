@@ -7,11 +7,55 @@ function cardClicked(what) {
   if (what.classList.contains("clicked")) {
     //it's already clicked, act appropriately
     what.classList.remove("clicked");
+    cardsClicked--;
 
   } else {
     //it's not already clicked
     what.classList.add("clicked");
+    cardsClicked++;
+
+    if (cardsClicked == 2) {
+      //compare card values
+      cardCompare();
+    }
   }
+}
+
+function cardCompare() {
+
+  clickedCards = document.getElementsByClassName("clicked"); //collection of clicked cards
+
+  //first clicked element will be clickedCards[0]
+  //second clicked element will be clickedCards[1]
+
+  matched = false; //track if the cards matched
+
+  if (clickedCards[0].classList.contains("pic1") && clickedCards[1].classList.contains("pic1")) {
+    matched = true; //they matched pic 1
+
+  } else if (clickedCards[0].classList.contains("pic2") && clickedCards[1].classList.contains("pic2")) {
+    matched = true; //they matched pic 2
+  }
+
+  if (matched) {
+    //hide cards 
+    removeCards(clickedCards[0], clickedCards[1]);   
+    
+  } else {
+    //unflip cards
+    unflipCards(clickedCards[0], clickedCards[1]);
+    
+  }
+
+
+}
+
+function removeCards(cardA, cardB) {
+  
+}
+
+function unflipCards(cardA, cardB) {
+  
 }
 
 
