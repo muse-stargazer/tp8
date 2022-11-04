@@ -52,6 +52,10 @@
   background-size: cover;
 }
 
+.card.removed div {
+  display: none;
+}
+
 
 
 
