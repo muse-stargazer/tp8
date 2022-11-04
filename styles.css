@@ -1,2 +1,13 @@
 /*CSS for Memory Card Game: TP8*/
 
+* {
+  box-sizing: border-box;
+}
+
+#mainTable {
+  width: 80vw;
+  height: 40vh;
+  position: relative;
+  margin: 10vh auto;
+  border: 1px solid #ccc;
+}
