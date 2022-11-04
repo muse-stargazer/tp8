@@ -41,6 +41,12 @@ function cardCompare() {
 
   } else if (clickedCards[0].classList.contains("pic2") && clickedCards[1].classList.contains("pic2")) {
     matched = true; //they matched pic 2
+    
+  } else if (clickedCards[0].classList.contains("pic3") && clickedCards[1].classList.contains("pic3")) {
+    matched = true; //they matched pic 3
+    
+  } else if (clickedCards[0].classList.contains("pic4") && clickedCards[1].classList.contains("pic4")) {
+    matched = true; //they matched pic 4
   }
 
   if (matched) {
