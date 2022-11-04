@@ -65,6 +65,8 @@ function removeCards(cardA, cardB) {
     cardB.classList.add("removed");
     
     cardsClicked = 0;
+    
+    checkWinning();
   }, 1000);  
 }
 
@@ -78,6 +80,18 @@ function unflipCards(cardA, cardB) {
   }, 1000);  
 }
 
+function checkWinning() {
+  remainingCards = document.querySelectorAll(".card"); //get all cards 
+  
+  //cycle through all cards and check for matched class
+  for (c = 0; c < remainingCards.length; c++) {
+     if ( !remainingCards[c].classList.contains("removed") ) {
+       return;
+     }
+  }
+  
+  document.getElementById("mainTable").innerHTML = "You won!";
+}
 
 //stuff to do when window loads
 window.onload = function() {
