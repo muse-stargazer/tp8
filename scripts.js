@@ -97,6 +97,9 @@ function shuffleCards() {
   table = document.querySelector("#mainTable");
   cardCount = table.children.length;
   
+  cardToMove = table.children[0];
+  table.appendChild( cardToMove );
+  
   for (c = 0; c < cardCount; c++) {
     randomCard = Math.floor( Math.random() * cardCount );
     cardToMove = table.children[randomCard];

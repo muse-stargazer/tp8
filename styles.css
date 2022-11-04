@@ -52,6 +52,16 @@
   background-size: cover;
 }
 
+.pic3 .cardFront {
+  background-image: url(images/orsay-clock-1.jpg);
+  background-size: cover;
+}
+
+.pic4 .cardFront {
+  background-image: url(images/plane.jpg);
+  background-size: cover;
+}
+
 .card.removed div {
   display: none;
 }
