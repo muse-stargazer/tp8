@@ -13,10 +13,17 @@
 
 .card {
   position: relative;
-  width: 20vw;
-  height: 20vw;
+  width: 18vw;
+  height: 18vw;
+  margin: 1vw;
   float: left;
   border: 1vw solid #fff;
+  box-shadow: 0px 7px 8px #999;
+  border-radius: 1vw;
+}
+
+.card.clicked {
+  border: 1vw solid #333;
 }
 
 .card div {
@@ -26,7 +33,7 @@
 }
 
 .cardBack {
-  background-color: #aaa;
+  background: linear-gradient(to bottom right, #cc0000 -22%, #000066 107%);
 }
 
 .cardFront {
@@ -45,6 +52,7 @@
 .pic1 .cardFront {
   background-image: url(images/seattle.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .pic2 .cardFront {
@@ -55,16 +63,36 @@
 .pic3 .cardFront {
   background-image: url(images/orsay-clock-1.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .pic4 .cardFront {
   background-image: url(images/plane.jpg);
   background-size: cover;
+  background-position: center;
+}
+
+.card.removed {
+  box-shadow: none;
 }
 
 .card.removed div {
   display: none;
 }
+
+#win {
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  background-image: url(images/blue-flowers.jpg);
+  background-size: cover;
+  font-family: helvetica, sans-serif;
+  font-size: 5vh;
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+}
+
 
 
 
