@@ -67,9 +67,9 @@
 }
 
 .pic4 .cardFront {
-  background-image: url(images/plane.jpg);
+  background-image: url(images/needle.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: top;
 }
 
 .pic5 .cardFront {
