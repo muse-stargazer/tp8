@@ -5,7 +5,7 @@
 }
 
 #mainTable {
-  width: 80vw;
+  width: 90vw;
   height: 80vh;
   position: relative;
   margin: 10vh auto;
@@ -13,8 +13,8 @@
 
 .card {
   position: relative;
-  width: 18vw;
-  height: 18vw;
+  width: 16vw;
+  height: 16vw;
   margin: 1vw;
   float: left;
   border: 1vw solid #fff;
@@ -93,7 +93,7 @@
 .pic8 .cardFront {
   background-image: url(images/st-pauls.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: left;
 }
 
 .pic9 .cardFront {
