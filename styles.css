@@ -72,6 +72,42 @@
   background-position: center;
 }
 
+.pic5 .cardFront {
+  background-image: url(images/paris.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.pic6 .cardFront {
+  background-image: url(images/sagrada-fruit.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.pic7 .cardFront {
+  background-image: url(images/windows.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.pic8 .cardFront {
+  background-image: url(images/st-pauls.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.pic9 .cardFront {
+  background-image: url(images/versailles.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.pic10 .cardFront {
+  background-image: url(images/ireland.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 .card.removed {
   box-shadow: none;
 }
@@ -96,17 +132,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  }
+}
 
 #win a {
   color: white;
 }
-
-
-
-
-
-
-
-
-

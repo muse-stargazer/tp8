@@ -48,6 +48,30 @@ function cardCompare() {
   } else if (clickedCards[0].classList.contains("pic4") && clickedCards[1].classList.contains("pic4")) {
     matched = true; //they matched pic 4
   }
+  
+  else if (clickedCards[0].classList.contains("pic5") && clickedCards[1].classList.contains("pic5")) {
+    matched = true; //they matched pic 5
+  }
+
+  else if (clickedCards[0].classList.contains("pic6") && clickedCards[1].classList.contains("pic6")) {
+    matched = true; //they matched pic 6
+  }
+
+  else if (clickedCards[0].classList.contains("pic7") && clickedCards[1].classList.contains("pic7")) {
+    matched = true; //they matched pic 7
+  }
+
+  else if (clickedCards[0].classList.contains("pic8") && clickedCards[1].classList.contains("pic8")) {
+    matched = true; //they matched pic 8
+  }
+
+  else if (clickedCards[0].classList.contains("pic9") && clickedCards[1].classList.contains("pic9")) {
+    matched = true; //they matched pic 9
+  }
+
+  else if (clickedCards[0].classList.contains("pic10") && clickedCards[1].classList.contains("pic10")) {
+    matched = true; //they matched pic 10
+  }
 
   if (matched) {
     //hide cards 
