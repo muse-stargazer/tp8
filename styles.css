@@ -34,6 +34,7 @@
 
 .cardBack {
   background: linear-gradient(to bottom right, #cc0000 -22%, #000066 107%);
+  background-image: url(images/wood.jpg);
 }
 
 .cardFront {
