@@ -13,9 +13,9 @@
 
 .card {
   position: relative;
-  width: 16vw;
+  width: 17vw;
   height: 16vw;
-  margin: 1vw;
+  margin: .5vw;
   float: left;
   border: 1vw solid #fff;
   box-shadow: 0px 7px 8px #999;
